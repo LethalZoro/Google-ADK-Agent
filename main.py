@@ -122,8 +122,8 @@ def initialize_agent():
         if deployments:
             # Extract the agent ID from the full resource name
             # e.g., "projects/.../agentEngines/12345" -> "12345"
-            full_resource_name = deployments[0]["resource_name"]
-            # full_resource_name = "projects/469937863197/locations/us-central1/reasoningEngines/7737579984008511488"
+            # full_resource_name = deployments[0]["resource_name"]
+            full_resource_name = "projects/469937863197/locations/us-central1/reasoningEngines/5418085438424350720"
 
             # st.session_state.resource_id = full_resource_name.split('/')[-1]
             st.session_state.resource_id = full_resource_name
