@@ -386,6 +386,7 @@ if not st.session_state.agent_selected:
     # The "value" is the pretty, user-friendly name you want to show.
     AGENT_DISPLAY_NAMES = {
         # Technical Name (from your API)         : User-Facing Name (what you want to show)
+        "projects/469937863197/locations/us-central1/reasoningEngines/1687979047054737408": "Ask-G2M Agent With BigQuery and Google Search",
         "projects/469937863197/locations/us-central1/reasoningEngines/1084496696987090944": "Ask-G2M Agent With BigQuery Gemini 2.5 Pro",
         "projects/469937863197/locations/us-central1/reasoningEngines/5418085438424350720": "Ask-G2M Agent Gemini 2.5 Pro",
         "projects/469937863197/locations/us-central1/reasoningEngines/7737579984008511488": "Ask-G2M Agent Gemini 2.5 Flash"
